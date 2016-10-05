@@ -1,0 +1,14 @@
+public static void arraySearch(int[] array,int query){
+boolean flag=false;
+for(int i=0;i<array.length;i++){
+if(array[i]==query){
+flag=true;
+break
+}
+}
+if(flag){
+System.out.println("the item in array has been found");
+}else{
+System.out.println("sorry the item in array was not found");
+}
+}
