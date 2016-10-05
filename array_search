@@ -3,7 +3,7 @@ boolean flag=false;
 for(int i=0;i<array.length;i++){
 if(array[i]==query){
 flag=true;
-break
+break; // semi colon has been added :(
 }
 }
 if(flag){
